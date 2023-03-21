@@ -1,0 +1,83 @@
+body {
+  background-color: black;
+  color: bisque;
+  font-family: cursive;
+  line-height: 1.5;
+  width: 50%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.leaderboard a,
+.timer {
+  font-size: 20px;
+}
+
+.leaderboard a {
+  color: red;
+}
+
+.leaderboard a:hover {
+  color: gray;
+}
+
+.start {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: gray;
+  border-top: 1px solid gray;
+  margin: 20px 0;
+  font-style: italic;
+  text-align: center;
+}
+
+.btn-sqr {
+  display: grid;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+.hide {
+  display: none;
+}
+
+.btn.correct {
+  background-color: blueviolet;
+}
+
+.btn.wrong {
+  background-color: darkmagenta;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
